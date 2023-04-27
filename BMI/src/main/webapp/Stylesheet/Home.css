@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+body{
+    background: rgb(219,241,152);
+background: linear-gradient(90deg, rgba(219,241,152,1) 100%, rgba(244,208,208,1) 100%);
+  margin: 0;
+font-family: "Sofia", sans-serif;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 90px;
+ 
+}
+.Container{
+    text-align: center;
+    border: solid black;
+    border-radius: 7px;
+    padding-top: 50px;
+    padding-bottom: 40px; 
+    background-color: whitesmoke;   
+}
+.row label{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom:5px;
+    margin-right: 244px;
+}
+.row{
+    margin-bottom:10px;
+}
+
+.row input{
+    
+    display: block;
+    margin-left: 30px;
+    
+}
+#height{
+     height: 30px;
+     width: 80%;
+     border-radius:4px;
+}
+#weight{
+    height: 30px;
+    width: 80%;
+    border-radius:4px;
+}
+
+form button{
+    background: rgb(219,241,152);
+    color: white;
+    border:1px solid  white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px opx;
+    cursor: pointer;
+    font-size: 20px;
+    width:50%;
+}
+.result{
+    padding-top: 9px;
+}
+#Underweight{
+    color: #f6041d;
+}
+#normel{
+    color: #05f604;
+}
+#Overweight{
+color: rgb(201, 243, 16);
+}
+#Obese{
+    color: #f6041d;
+}
+
+.row .error{
+    color: #fd0606;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.row.success input{
+     border-color: #4af706;
+}
+.row.error input{
+    border-color: #fa0303;
+}
